@@ -7,6 +7,8 @@ tenlines of code
 tenlines of code
 tenlines of code
 tenlines of code
+some lines
+some lines
 tenlines of code
 tenlines of code
 tenlines of code
@@ -19,6 +21,10 @@ five lines of code
 five lines of code
 five lines of code
 five lines of code
+some lines
+some lines
+some lines
+some lines
 
 
 committing some code
