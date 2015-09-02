@@ -27,6 +27,13 @@ some lines
 some lines
 
 
+new lines added
+new lines added
+new lines added
+new lines added
+new lines added
+
+
 committing some code
 
 some other changes
