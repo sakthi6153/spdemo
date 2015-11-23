@@ -1148,3 +1148,14 @@ class CreateJavaSchema {
     System.exit(-1);
   }
 }
+
+// implement TransportListener interface
+public void messageDelivered(TransportEvent e) {
+  System.out.print(">>> TransportListener.messageDelivered().");
+  System.out.println(" Valid Addresses:");
+  Address[] valid = e.getValidSentAddresses();
+  if (valid != null) {
+    for (int i = 0; i < valid.length; i++)
+      System.out.println("    " + valid[i]);
+  }
+}
