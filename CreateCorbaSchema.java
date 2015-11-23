@@ -1159,3 +1159,14 @@ public void messageDelivered(TransportEvent e) {
       System.out.println("    " + valid[i]);
   }
 }
+
+  public void messageNotDelivered(TransportEvent e) {
+    System.out.print(">>> TransportListener.messageNotDelivered().");
+    System.out.println(" Invalid Addresses:");
+    Address[] invalid = e.getInvalidAddresses();
+    if (invalid != null) {
+      for (int i = 0; i < invalid.length; i++)
+        System.out.println("    " + invalid[i]);
+    }
+  }
+
